@@ -1,0 +1,129 @@
+
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+}
+
+/* Animacion para las notificaciones */
+@keyframes aparecer {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Navbar personalizada */
+.navbar-allsport {
+  background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%) !important;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.navbar-allsport .navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+/* Tarjetas de producto */
+.tarjeta-producto {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.tarjeta-producto:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.img-producto {
+  height: 220px;
+  object-fit: cover;
+  border-bottom: 3px solid #ff6b35;
+}
+
+/* Botones personalizados */
+.btn-allsport {
+  background-color: #ff6b35;
+  border: none;
+  color: white;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-allsport:hover {
+  background-color: #e55a2b;
+  transform: scale(1.05);
+  color: white;
+}
+
+.btn-allsport-secondary {
+  background-color: #333;
+  border: none;
+  color: white;
+  font-weight: 600;
+}
+
+.btn-allsport-secondary:hover {
+  background-color: #555;
+  color: white;
+}
+
+/* Badge del carrito */
+.badge-carrito {
+  background-color: #ff3333 !important;
+  font-size: 0.7rem;
+}
+
+/* Buscador */
+.input-buscar {
+  border: 2px solid #ff6b35;
+  border-radius: 25px;
+  padding: 10px 20px;
+}
+
+.input-buscar:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 107, 53, 0.25);
+  border-color: #ff6b35;
+}
+
+/* Paginacion */
+.pagination .page-item.active .page-link {
+  background-color: #ff6b35;
+  border-color: #ff6b35;
+}
+
+.pagination .page-link {
+  color: #ff6b35;
+}
+
+.pagination .page-link:hover {
+  background-color: #ffe5dc;
+}
+
+/* Tabla admin */
+.tabla-admin {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Precio destacado */
+.precio-producto {
+  color: #ff6b35;
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+/* Modal personalizado */
+.modal-contenido {
+  border-radius: 15px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+}
