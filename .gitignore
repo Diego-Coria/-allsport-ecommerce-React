@@ -1,4 +1,13 @@
+# dependencias
 node_modules/
+ecommerce-app/node_modules/
+
+# builds
 build/
+ecommerce-app/build/
+
+# variables de entorno
 .env
+
+# logs
 npm-debug.log*
